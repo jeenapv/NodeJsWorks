@@ -1,0 +1,19 @@
+{
+  "name": "node-mysql",
+  "version": "1.0.0",
+  "description": "sample connectivity nodeJs - mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodeJS",
+    "mysql"
+  ],
+  "author": "kakes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "mysql": "^2.13.0"
+  }
+}
