@@ -4,6 +4,12 @@ var app = express()
 app.get('/', function (req, res) {
   res.send('Hello World!')
 })
+app.get('/kk', function (req, res) {
+  res.send('<html>jeena</html>')
+})
+app.get('/kk/jeena', function (req, res) {
+  res.send('jeee!')
+})
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!')
