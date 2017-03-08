@@ -5,10 +5,10 @@ app.get('/', function (req, res) {
   res.send('Hello World!')
 })
 app.get('/kk', function (req, res) {
-  res.send('<html>jeena</html>')
+  res.send('<h1>jeena</h1><title>myapp</title>')
 })
 app.get('/kk/jeena', function (req, res) {
-  res.send('jeee!')
+   res.sendFile(__dirname + '/index.html')
 })
 
 app.listen(3000, function () {
